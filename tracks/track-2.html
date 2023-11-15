@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Project v2</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="../css/track-2.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    WebFont.load({
+      google: {
+        families: ["Inconsolata:400,700"]
+      }
+    }
+  );
+  </script>
+</head>
+<body class="body">
+  <section class="section">
+    <div class="container">
+      <a class="return-home" href="../index.html">
+        <p class="return-text">
+          Return home
+        </p>
+        <audio id="reference-track" src="../assets/audio/track-2/reference.mp3" muted></audio>
+      </a>
+      <div class="music-controls">
+        <div class="now-playing">
+          <p class="current-song">Now Playing: Track 2</p>
+        </div>
+        <div class="play-or-pause">
+          <a id="play" class="play button">&gt;</a>
+          <a id="pause" class="pause button">II</a>
+          <a id="restart" class="restart button">I<</a>
+        </div>
+      </div>
+      <div class="instruments-wrapper">
+        <div class="instruments-div">
+          <div class="instrument-icon">
+            <img class="instrument-image" src="../images/vocals.png" loading="lazy" alt="">
+          </div>
+          <audio id="vocals" src="../assets/audio/track-2/vocals.mp3" muted></audio>
+          <div class="visualiser-div">
+            <div class="spacer"></div>
+            <div class="visualiser"></div>
+          </div>
+          <a class="instrument-play button mute">&gt;</a>
+        </div>
+        <div class="instruments-div">
+          <div class="instrument-icon">
+            <img class="instrument-image" src="../images/guitar.png" loading="lazy" alt="">
+          </div>
+          <audio id="guitar" src="../assets/audio/track-2/guitar.mp3" muted></audio>
+          <div class="visualiser-div">
+            <div class="spacer"></div>
+            <div class="visualiser"></div>
+          </div>
+          <a class="instrument-play button mute">&gt;</a>
+        </div>
+        <div class="instruments-div">
+          <div class="instrument-icon">
+            <img class="instrument-image"src="../images/drums.png" loading="lazy" alt="">
+          </div>
+          <audio id="drums" src="../assets/audio/track-2/drums.mp3" muted></audio>
+          <div class="visualiser-div">
+            <div class="spacer"></div>
+            <div class="visualiser"></div>
+          </div>
+          <a class="instrument-play button mute">&gt;</a>
+        </div>
+        <div class="instruments-div">
+          <div class="instrument-icon">
+            <img class="instrument-image"src="../images/bass.png" loading="lazy" alt="">
+          </div>
+          <audio id="bass" src="../assets/audio/track-2/bass.mp3" muted></audio>
+          <div class="visualiser-div">
+            <div class="spacer"></div>
+            <div class="visualiser"></div>
+          </div>
+          <a class="instrument-play button mute">&gt;</a>
+        </div>
+        <div class="instruments-div">
+          <div class="instrument-icon">
+            <img class="instrument-image"src="../images/piano.png" loading="lazy" alt="">
+          </div>
+          <audio id="piano" src="../assets/audio/track-2/piano.mp3" muted></audio>
+          <div class="visualiser-div">
+            <div class="spacer"></div>
+            <div class="visualiser"></div>
+          </div>
+          <a class="instrument-play button mute">&gt;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="../js/track-2.js" type="text/javascript"></script>
+</body>
+</html>
