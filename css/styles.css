@@ -10,7 +10,7 @@
 
 .section {
   width: 100vw;
-  height: 70vh;
+  height: 100vh;
   background-color: #000;
   background-image: url('../images/BG.jpg');
   background-position: 50%;
